@@ -10,7 +10,7 @@ const Introduction = ({ text }) => (
       .text {
         font-size: 40px;
         text-align: center;
-        margin-top: 200px;
+        margin-top: 80px;
         max-width: 300px;
       }
       @media (min-width: 576px) {
@@ -22,18 +22,21 @@ const Introduction = ({ text }) => (
       @media (min-width: 768px) {
         .text {
           max-width: 600px;
+          margin-top: 200px;
         }
       }
 
       @media (min-width: 992px) {
         .text {
           max-width: 800px;
+          margin-top: 200px;
         }
       }
 
       @media (min-width: 1200px) {
         .text {
           max-width: 1000px;
+          margin-top: 200px;
         }
       }
     `}</style>
