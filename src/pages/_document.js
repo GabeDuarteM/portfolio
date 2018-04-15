@@ -10,6 +10,23 @@ class CustomDocument extends Document {
     return (
       <html lang="en">
         <Head>
+          {process.env.NODE_ENV === "production" && (
+            <React.Fragment>
+              <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=UA-106120004-2"
+              />
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-106120004-2');`,
+                }}
+              />
+            </React.Fragment>
+          )}
+
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
