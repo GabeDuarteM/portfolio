@@ -7,10 +7,10 @@
   "scripts": {
     "start": "next src",
     "start:prod": "next start src -p $PORT",
-    "build": "next build src",
+    "prebuild": "rimraf src/out",
+    "build": "next build src && yarn export",
     "export": "next export src",
-    "predeploy": "rimraf src/out",
-    "deploy": "yarn build && yarn export && netlify deploy"
+    "deploy": "yarn build && netlify deploy"
   },
   "dependencies": {
     "next": "^5.1.0",
