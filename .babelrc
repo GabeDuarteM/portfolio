@@ -1,0 +1,37 @@
+{
+  "env": {
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false,
+            "useBuiltIns": true,
+            "targets": {
+              "browsers": "> 5%"
+            }
+          }
+        ],
+        "next/babel"
+      ]
+    },
+    "development": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false,
+            "useBuiltIns": true,
+            "targets": {
+              "browsers": "> 5%"
+            }
+          }
+        ],
+        "next/babel"
+      ]
+    },
+    "test": {
+      "presets": [["next/babel", { "preset-env": { "modules": "commonjs" } }]]
+    }
+  }
+}

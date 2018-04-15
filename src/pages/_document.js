@@ -17,14 +17,16 @@ class CustomDocument extends Document {
                 src="https://www.googletagmanager.com/gtag/js?id=UA-106120004-2"
               />
               <script
+                // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{
                   __html: `window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-106120004-2');`,
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');`,
                 }}
               />
               <script
+                // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{
                   __html: `(function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -43,12 +45,12 @@ class CustomDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           <meta
             name="Description"
             content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
           />
-          <title>Gabriel Duarte's Portfolio</title>
+          <title>Gabriel Duarte&apos;s Portfolio</title>
           <link
             href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
             rel="stylesheet"

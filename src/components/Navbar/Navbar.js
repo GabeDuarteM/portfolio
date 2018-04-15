@@ -6,7 +6,7 @@ const Navbar = () => (
       className="social"
       href="https://github.com/GabrielDuarteM/"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
       aria-label="Github profile"
     >
       <img src="/static/img/github.png" alt="Github profile" />
@@ -27,7 +27,7 @@ const Navbar = () => (
       className="social"
       href="https://www.linkedin.com/in/GabrielDuarteM/"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
       aria-label="Linkedin profile"
     >
       <img src="/static/img/linkedin.png" alt="Linkedin profile" />

@@ -4,7 +4,7 @@ const Footer = () => (
       href="https://github.com/GabrielDuarteM/"
       aria-label="Github profile"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <img src="/static/img/github.png" alt="Github profile" />
     </a>
@@ -12,7 +12,7 @@ const Footer = () => (
       href="https://www.linkedin.com/in/GabrielDuarteM/"
       aria-label="Linkedin profile"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <img src="/static/img/linkedin.png" alt="Linkedin profile" />
     </a>

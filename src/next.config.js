@@ -5,4 +5,5 @@ module.exports = {
       "/about": { page: "/about" },
     }
   },
+  excludeFile: str => /\*.{spec,test}.js/.test(str),
 }

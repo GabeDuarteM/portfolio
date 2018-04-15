@@ -1,13 +1,13 @@
 const About = () => (
   <main className="flex">
     <div className="about">
-      My name is Gabriel Duarte, and I'm a Javascript developer graduated in
-      Information Systems at Estácio (Santa Catarina - BR) and currently living
-      in Brazil.
+      My name is Gabriel Duarte, and I&apos;m a Javascript developer graduated
+      in Information Systems at Estácio (Santa Catarina - BR) and currently
+      living in Brazil.
       <br />
       <br />
-      I'm a very positive person, always looking out for a light and flexible
-      environment, good conversations, and a good music.
+      I&apos;m a very positive person, always looking out for a light and
+      flexible environment, good conversations, and a good music.
       <br />
       <br />
       I like to work with React, Redux, Babel, Webpack, Node, Typescript,
@@ -17,8 +17,9 @@ const About = () => (
       <br />
       <br />
       One of the traits I think that defines me the most, is curiosity. With it,
-      I'm always pushing myself further, always learning about new technologies,
-      and always looking for new things using the technologies I like.
+      I&apos;m always pushing myself further, always learning about new
+      technologies, and always looking for new things using the technologies I
+      like.
       <div className="about-you">
         But enough about me.{" "}
         <div role="button" className="flex">

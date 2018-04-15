@@ -1,0 +1,1083 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`_document should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CustomDocument />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Head>
+          <meta
+            content="width=device-width, initial-scale=1.0"
+            name="viewport"
+          />
+          <meta
+            content="ie=edge"
+            httpEquiv="X-UA-Compatible"
+          />
+          <meta
+            content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
+            name="Description"
+          />
+          <title>
+            Gabriel Duarte's Portfolio
+          </title>
+          <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
+            rel="stylesheet"
+          />
+          <link
+            href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
+            rel="stylesheet"
+          />
+        </Head>,
+        <body>
+          <Main />
+          <NextScript />
+        </body>,
+      ],
+      "lang": "en",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            false,
+            <meta
+              content="width=device-width, initial-scale=1.0"
+              name="viewport"
+            />,
+            <meta
+              content="ie=edge"
+              httpEquiv="X-UA-Compatible"
+            />,
+            <meta
+              content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
+              name="Description"
+            />,
+            <title>
+              Gabriel Duarte's Portfolio
+            </title>,
+            <link
+              href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
+              rel="stylesheet"
+            />,
+            <link
+              href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
+              rel="stylesheet"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "width=device-width, initial-scale=1.0",
+              "name": "viewport",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "ie=edge",
+              "httpEquiv": "X-UA-Compatible",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works.",
+              "name": "Description",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Gabriel Duarte's Portfolio",
+            },
+            "ref": null,
+            "rendered": "Gabriel Duarte's Portfolio",
+            "type": "title",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://fonts.googleapis.com/css?family=Montserrat:300,400,500",
+              "rel": "stylesheet",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css",
+              "rel": "stylesheet",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Main />,
+            <NextScript />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "body",
+      },
+    ],
+    "type": "html",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Head>
+            <meta
+              content="width=device-width, initial-scale=1.0"
+              name="viewport"
+            />
+            <meta
+              content="ie=edge"
+              httpEquiv="X-UA-Compatible"
+            />
+            <meta
+              content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
+              name="Description"
+            />
+            <title>
+              Gabriel Duarte's Portfolio
+            </title>
+            <link
+              href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
+              rel="stylesheet"
+            />
+            <link
+              href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
+              rel="stylesheet"
+            />
+          </Head>,
+          <body>
+            <Main />
+            <NextScript />
+          </body>,
+        ],
+        "lang": "en",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              false,
+              <meta
+                content="width=device-width, initial-scale=1.0"
+                name="viewport"
+              />,
+              <meta
+                content="ie=edge"
+                httpEquiv="X-UA-Compatible"
+              />,
+              <meta
+                content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
+                name="Description"
+              />,
+              <title>
+                Gabriel Duarte's Portfolio
+              </title>,
+              <link
+                href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
+                rel="stylesheet"
+              />,
+              <link
+                href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
+                rel="stylesheet"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "width=device-width, initial-scale=1.0",
+                "name": "viewport",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "ie=edge",
+                "httpEquiv": "X-UA-Compatible",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works.",
+                "name": "Description",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Gabriel Duarte's Portfolio",
+              },
+              "ref": null,
+              "rendered": "Gabriel Duarte's Portfolio",
+              "type": "title",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://fonts.googleapis.com/css?family=Montserrat:300,400,500",
+                "rel": "stylesheet",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css",
+                "rel": "stylesheet",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Main />,
+              <NextScript />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "body",
+        },
+      ],
+      "type": "html",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`_document should match the snapshot using the prod env 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CustomDocument />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Head>
+          <UNDEFINED>
+            <script
+              async={true}
+              src="https://www.googletagmanager.com/gtag/js?id=UA-106120004-2"
+            />
+            <script
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');",
+                }
+              }
+            />
+            <script
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "(function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:848161,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
+                }
+              }
+            />
+          </UNDEFINED>
+          <meta
+            content="width=device-width, initial-scale=1.0"
+            name="viewport"
+          />
+          <meta
+            content="ie=edge"
+            httpEquiv="X-UA-Compatible"
+          />
+          <meta
+            content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
+            name="Description"
+          />
+          <title>
+            Gabriel Duarte's Portfolio
+          </title>
+          <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
+            rel="stylesheet"
+          />
+          <link
+            href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
+            rel="stylesheet"
+          />
+        </Head>,
+        <body>
+          <Main />
+          <NextScript />
+        </body>,
+      ],
+      "lang": "en",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <UNDEFINED>
+              <script
+                async={true}
+                src="https://www.googletagmanager.com/gtag/js?id=UA-106120004-2"
+              />
+              <script
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');",
+                  }
+                }
+              />
+              <script
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "(function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:848161,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
+                  }
+                }
+              />
+            </UNDEFINED>,
+            <meta
+              content="width=device-width, initial-scale=1.0"
+              name="viewport"
+            />,
+            <meta
+              content="ie=edge"
+              httpEquiv="X-UA-Compatible"
+            />,
+            <meta
+              content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
+              name="Description"
+            />,
+            <title>
+              Gabriel Duarte's Portfolio
+            </title>,
+            <link
+              href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
+              rel="stylesheet"
+            />,
+            <link
+              href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
+              rel="stylesheet"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <script
+                  async={true}
+                  src="https://www.googletagmanager.com/gtag/js?id=UA-106120004-2"
+                />,
+                <script
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');",
+                    }
+                  }
+                />,
+                <script
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "(function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:848161,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
+                    }
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "async": true,
+                  "src": "https://www.googletagmanager.com/gtag/js?id=UA-106120004-2",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "script",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "dangerouslySetInnerHTML": Object {
+                    "__html": "window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "script",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "dangerouslySetInnerHTML": Object {
+                    "__html": "(function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:848161,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "script",
+              },
+            ],
+            "type": Symbol(react.fragment),
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "width=device-width, initial-scale=1.0",
+              "name": "viewport",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "ie=edge",
+              "httpEquiv": "X-UA-Compatible",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works.",
+              "name": "Description",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Gabriel Duarte's Portfolio",
+            },
+            "ref": null,
+            "rendered": "Gabriel Duarte's Portfolio",
+            "type": "title",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://fonts.googleapis.com/css?family=Montserrat:300,400,500",
+              "rel": "stylesheet",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css",
+              "rel": "stylesheet",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Main />,
+            <NextScript />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "body",
+      },
+    ],
+    "type": "html",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Head>
+            <UNDEFINED>
+              <script
+                async={true}
+                src="https://www.googletagmanager.com/gtag/js?id=UA-106120004-2"
+              />
+              <script
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');",
+                  }
+                }
+              />
+              <script
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "(function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:848161,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
+                  }
+                }
+              />
+            </UNDEFINED>
+            <meta
+              content="width=device-width, initial-scale=1.0"
+              name="viewport"
+            />
+            <meta
+              content="ie=edge"
+              httpEquiv="X-UA-Compatible"
+            />
+            <meta
+              content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
+              name="Description"
+            />
+            <title>
+              Gabriel Duarte's Portfolio
+            </title>
+            <link
+              href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
+              rel="stylesheet"
+            />
+            <link
+              href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
+              rel="stylesheet"
+            />
+          </Head>,
+          <body>
+            <Main />
+            <NextScript />
+          </body>,
+        ],
+        "lang": "en",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <UNDEFINED>
+                <script
+                  async={true}
+                  src="https://www.googletagmanager.com/gtag/js?id=UA-106120004-2"
+                />
+                <script
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');",
+                    }
+                  }
+                />
+                <script
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "(function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:848161,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
+                    }
+                  }
+                />
+              </UNDEFINED>,
+              <meta
+                content="width=device-width, initial-scale=1.0"
+                name="viewport"
+              />,
+              <meta
+                content="ie=edge"
+                httpEquiv="X-UA-Compatible"
+              />,
+              <meta
+                content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
+                name="Description"
+              />,
+              <title>
+                Gabriel Duarte's Portfolio
+              </title>,
+              <link
+                href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"
+                rel="stylesheet"
+              />,
+              <link
+                href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
+                rel="stylesheet"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <script
+                    async={true}
+                    src="https://www.googletagmanager.com/gtag/js?id=UA-106120004-2"
+                  />,
+                  <script
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');",
+                      }
+                    }
+                  />,
+                  <script
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "(function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:848161,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
+                      }
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "async": true,
+                    "src": "https://www.googletagmanager.com/gtag/js?id=UA-106120004-2",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "script",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "dangerouslySetInnerHTML": Object {
+                      "__html": "window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-106120004-2');",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "script",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "dangerouslySetInnerHTML": Object {
+                      "__html": "(function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:848161,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "script",
+                },
+              ],
+              "type": Symbol(react.fragment),
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "width=device-width, initial-scale=1.0",
+                "name": "viewport",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "ie=edge",
+                "httpEquiv": "X-UA-Compatible",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works.",
+                "name": "Description",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Gabriel Duarte's Portfolio",
+              },
+              "ref": null,
+              "rendered": "Gabriel Duarte's Portfolio",
+              "type": "title",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://fonts.googleapis.com/css?family=Montserrat:300,400,500",
+                "rel": "stylesheet",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css",
+                "rel": "stylesheet",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Main />,
+              <NextScript />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "body",
+        },
+      ],
+      "type": "html",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
