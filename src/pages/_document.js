@@ -28,12 +28,6 @@ class CustomDocument extends Document {
             href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
             rel="stylesheet"
           />
-          <style jsx global>{`
-            body {
-              font-family: Montserrat !important;
-              font-size: 20px;
-            }
-          `}</style>
         </Head>
         <body>
           <Main />
