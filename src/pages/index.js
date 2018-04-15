@@ -1,8 +1,8 @@
 import Layout from "../components/Layout"
-import IntroductionContainer from "../containers/IntroductionContainer"
+import Home from "../components/Home/Home"
 
 export default () => (
   <Layout>
-    <IntroductionContainer />
+    <Home />
   </Layout>
 )

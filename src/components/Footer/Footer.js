@@ -1,10 +1,20 @@
 const Footer = () => (
   <div className="social">
-    <a href="https://github.com/GabrielDuarteM/" target="_blank">
-      <img src="/static/img/github.png" />
+    <a
+      href="https://github.com/GabrielDuarteM/"
+      aria-label="Github profile"
+      target="_blank"
+      rel="noopener"
+    >
+      <img src="/static/img/github.png" alt="Github profile" />
     </a>
-    <a href="https://www.linkedin.com/in/GabrielDuarteM/" target="_blank">
-      <img src="/static/img/linkedin.png" />
+    <a
+      href="https://www.linkedin.com/in/GabrielDuarteM/"
+      aria-label="Linkedin profile"
+      target="_blank"
+      rel="noopener"
+    >
+      <img src="/static/img/linkedin.png" alt="Linkedin profile" />
     </a>
     <style jsx>{`
       .social {

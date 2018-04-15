@@ -4,7 +4,7 @@ import Footer from "../Footer"
 const Layout = ({ children }) => (
   <div>
     <Navbar />
-    {children}
+    <div className="content">{children}</div>
     <Footer />
     <style jsx global>{`
       body {
@@ -14,6 +14,36 @@ const Layout = ({ children }) => (
       }
       * {
         transition: 0.3s all ease-in-out;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      @media (min-width: 576px) {
+        .content > * {
+          width: 400px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .content > * {
+          width: 600px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .content > * {
+          width: 800px;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .content > * {
+          width: 1000px;
+        }
       }
     `}</style>
   </div>

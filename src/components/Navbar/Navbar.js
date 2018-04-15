@@ -6,8 +6,10 @@ const Navbar = () => (
       className="social"
       href="https://github.com/GabrielDuarteM/"
       target="_blank"
+      rel="noopener"
+      aria-label="Github profile"
     >
-      <img src="/static/img/github.png" />
+      <img src="/static/img/github.png" alt="Github profile" />
     </a>
     <Link prefetch href="/">
       <a className="link">Home</a>
@@ -25,14 +27,16 @@ const Navbar = () => (
       className="social"
       href="https://www.linkedin.com/in/GabrielDuarteM/"
       target="_blank"
+      rel="noopener"
+      aria-label="Linkedin profile"
     >
-      <img src="/static/img/linkedin.png" />
+      <img src="/static/img/linkedin.png" alt="Linkedin profile" />
     </a>
     <style jsx>{`
       nav {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         font-size: 22px;
         user-select: none;
         margin: 24px 0;

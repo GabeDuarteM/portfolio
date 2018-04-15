@@ -13,12 +13,6 @@ const Introduction = ({ text }) => (
         margin-top: 80px;
         max-width: 300px;
       }
-      @media (min-width: 576px) {
-        .text {
-          max-width: 400px;
-        }
-      }
-
       @media (min-width: 768px) {
         .text {
           max-width: 600px;

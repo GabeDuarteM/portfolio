@@ -1,17 +1,20 @@
 const About = () => (
-  <div className="flex">
+  <main className="flex">
     <div className="about">
       My name is Gabriel Duarte, and I'm a Javascript developer graduated in
       Information Systems at Estácio (Santa Catarina - BR) and currently living
       in Brazil.
       <br />
+      <br />
       I'm a very positive person, always looking out for a light and flexible
       environment, good conversations, and a good music.
+      <br />
       <br />
       I like to work with React, Redux, Babel, Webpack, Node, Typescript,
       Prettier, Eslint, Jest, Enzyme, Electron, and basically any other
       technology that makes my life as a developer simpler, or that adds value
       to the user experience.
+      <br />
       <br />
       One of the traits I think that defines me the most, is curiosity. With it,
       I'm always pushing myself further, always learning about new technologies,
@@ -38,9 +41,6 @@ const About = () => (
         text-align: center;
         margin-top: 40px;
       }
-      br {
-        line-height: 2;
-      }
       .mailto {
         text-decoration: none;
         color: #343e46;
@@ -54,32 +54,8 @@ const About = () => (
         color: white;
         border: solid #343e46;
       }
-
-      @media (min-width: 576px) {
-        .about {
-          width: 400px;
-        }
-      }
-
-      @media (min-width: 768px) {
-        .about {
-          width: 600px;
-        }
-      }
-
-      @media (min-width: 992px) {
-        .about {
-          width: 800px;
-        }
-      }
-
-      @media (min-width: 1200px) {
-        .about {
-          width: 1000px;
-        }
-      }
     `}</style>
-  </div>
+  </main>
 )
 
 export default About
