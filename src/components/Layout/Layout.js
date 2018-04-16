@@ -1,8 +1,10 @@
 import Navbar from "../Navbar"
 import Footer from "../Footer"
+import RegisterServiceWorker from "../../containers/RegisterServiceWorker"
 
 const Layout = ({ children }) => (
   <div>
+    <RegisterServiceWorker />
     <Navbar />
     <div className="content">{children}</div>
     <Footer />
