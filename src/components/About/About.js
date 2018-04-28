@@ -2,8 +2,8 @@ const About = () => (
   <main className="flex">
     <div className="about">
       My name is Gabriel Duarte, and I&apos;m a Javascript developer graduated
-      in Information Systems at Estácio (Santa Catarina - BR) and currently
-      living in Brazil.
+      in Information Systems at Estácio de Sá (Santa Catarina - BR) and
+      currently living in Brazil.
       <br />
       <br />
       I&apos;m a very positive person, always looking out for a light and
