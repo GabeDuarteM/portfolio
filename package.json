@@ -11,6 +11,7 @@
     "build": "next build src && yarn export && cp src/root/* src/out",
     "export": "next export src",
     "deploy": "yarn build && netlify deploy",
+    "deploy:staging": "yarn deploy -e staging",
     "test": "jest",
     "lint": "yarn eslint src/**/*.js",
     "ci": "yarn build && yarn test && yarn lint"
