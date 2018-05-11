@@ -1,5 +1,7 @@
+import ContactFormContainer from "../../containers/ContactFormContainer"
+
 const About = () => (
-  <main className="flex">
+  <main className="flex column root-about">
     <div className="about">
       My name is Gabriel Duarte, and I&apos;m a Javascript developer graduated
       in Information Systems at Estácio de Sá (Santa Catarina - BR) and
@@ -20,40 +22,22 @@ const About = () => (
       I&apos;m always pushing myself further, always learning about new
       technologies, and always looking for new things using the technologies I
       like.
-      <div className="about-you">
-        But enough about me.{" "}
-        <div role="button" className="flex">
-          <a className="mailto" href="mailto:gabrielqduarte@gmail.com">
-            Tell me about you.
-          </a>
-        </div>
-      </div>
     </div>
+    <ContactFormContainer />
     <style jsx>{`
+      .root-about {
+        margin: 80px 32px;
+      }
       .flex {
         display: flex;
         align-items: center;
         justify-content: center;
       }
+      .flex.column {
+        flex-direction: column;
+      }
       .about {
-        margin: 80px 32px;
-      }
-      .about-you {
-        text-align: center;
-        margin-top: 40px;
-      }
-      .mailto {
-        text-decoration: none;
-        color: #343e46;
-        padding: 8px;
-        border: solid;
-        width: 240px;
-        margin-top: 8px;
-      }
-      .mailto:hover {
-        background-color: #343e46;
-        color: white;
-        border: solid #343e46;
+        margin-bottom: 55px;
       }
     `}</style>
   </main>

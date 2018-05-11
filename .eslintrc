@@ -20,6 +20,16 @@
     "react/jsx-filename-extension": "off",
     "react/prop-types": "off",
     "jsx-a11y/anchor-is-valid": "off",
-    "react/jsx-no-undef": ["error", { "allowGlobals": true }]
+    "react/jsx-no-undef": ["error", { "allowGlobals": true }],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "components": [],
+        "required": {
+          "every": ["id"]
+        },
+        "allowChildren": false
+      }
+    ]
   }
 }
