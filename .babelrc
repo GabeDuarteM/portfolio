@@ -3,35 +3,44 @@
     "production": {
       "presets": [
         [
-          "env",
+          "next/babel",
           {
-            "modules": false,
-            "useBuiltIns": true,
-            "targets": {
-              "browsers": "> 5%"
+            "preset-env": {
+              "modules": false,
+              "targets": {
+                "browsers": "> 5%"
+              }
             }
           }
-        ],
-        "next/babel"
+        ]
       ]
     },
     "development": {
       "presets": [
         [
-          "env",
+          "next/babel",
           {
-            "modules": false,
-            "useBuiltIns": true,
-            "targets": {
-              "browsers": "> 5%"
+            "preset-env": {
+              "modules": false,
+              "targets": {
+                "browsers": "> 5%"
+              }
             }
           }
-        ],
-        "next/babel"
+        ]
       ]
     },
     "test": {
-      "presets": [["next/babel", { "preset-env": { "modules": "commonjs" } }]]
+      "presets": [
+        [
+          "next/babel",
+          {
+            "preset-env": {
+              "modules": "commonjs"
+            }
+          }
+        ]
+      ]
     }
   }
 }
