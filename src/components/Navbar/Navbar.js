@@ -15,10 +15,11 @@ const Navbar = () => (
       <a className="link">Home</a>
     </Link>
     <Link prefetch href="/">
-      <div className="logo">
-        <div className="gabriel">Gabriel</div>
-        <div className="duarte">Duarte</div>
-      </div>
+      <img
+        className="logo"
+        src="/static/img/gduarte-logo.png"
+        alt="Gabriel Duarte Logo"
+      />
     </Link>
     <Link prefetch href="/about">
       <a className="link">About</a>
@@ -47,16 +48,7 @@ const Navbar = () => (
         justify-content: center;
         flex-direction: column;
         cursor: pointer;
-      }
-      .gabriel {
-        font-weight: 300;
-      }
-      .duarte {
-        font-weight: 500;
-        border-bottom: solid;
-        padding-bottom: 4px;
-        text-align: center;
-        width: 96px;
+        -webkit-user-drag: none;
       }
       .link {
         position: relative;

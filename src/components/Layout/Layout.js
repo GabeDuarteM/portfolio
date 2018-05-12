@@ -10,7 +10,7 @@ const Layout = ({ children }) => (
     <Footer />
     <style jsx global>{`
       body {
-        font-family: Montserrat !important;
+        font-family: Montserrat, sans-serif !important;
         font-size: 20px;
         color: #343e46;
       }
