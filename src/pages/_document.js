@@ -1,4 +1,5 @@
 import Document, { Head, Main, NextScript } from "next/document"
+import ExternalScripts from "../components/ExternalScripts/ExternalScripts"
 
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
@@ -77,6 +78,7 @@ class CustomDocument extends Document {
             href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css"
             rel="stylesheet"
           />
+          <ExternalScripts />
         </Head>
         <body>
           <Main />
