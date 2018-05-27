@@ -1,4 +1,7 @@
-module.exports = {
+const withPlugins = require("next-compose-plugins")
+const optimizedImages = require("next-optimized-images")
+
+module.exports = withPlugins([optimizedImages], {
   exportPathMap: function() {
     return {
       "/": { page: "/" },
@@ -7,4 +10,4 @@ module.exports = {
     }
   },
   excludeFile: str => /\*.{spec,test}.js/.test(str),
-}
+})

@@ -1,18 +1,25 @@
-import Taskbar from "../Taskbar/Taskbar"
+import TaskbarContainer from "../../containers/TaskbarContainer/TaskbarContainer"
+import windowsBackground from "../../static/img/windows/windows-background.jpg"
 
 const Windows = () => (
   <div className="windows-root">
-    <Taskbar />
+    <img
+      className="windows-background"
+      src={windowsBackground}
+      alt="Windows background"
+    />
+    <TaskbarContainer />
     <style jsx global>{`
       * {
         user-select: none;
       }
     `}</style>
     <style jsx>{`
-      .windows-root {
+      .windows-background {
+        width: 100vw;
         height: 100vh;
-        background-image: url(/static/img/windows/windows-background.jpg);
-        background-size: cover;
+        position: absolute;
+        pointer-events: none;
       }
     `}</style>
   </div>
