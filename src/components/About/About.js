@@ -1,11 +1,8 @@
-import ContactFormContainer from "../../containers/ContactFormContainer"
-
 const About = () => (
   <main className="flex column root-about">
     <div className="about">
-      My name is Gabriel Duarte, and I&apos;m a Javascript developer graduated
-      in Information Systems at Estácio de Sá (Santa Catarina - BR) and
-      currently living in Brazil.
+      I&apos;m a Javascript developer graduated in Information Systems at
+      Estácio de Sá (Santa Catarina - BR) and currently living in Brazil.
       <br />
       <br />
       I&apos;m a very positive person, always looking out for a light and
@@ -23,7 +20,6 @@ const About = () => (
       technologies, and always looking for new things using the technologies I
       like.
     </div>
-    <ContactFormContainer />
     <style jsx>{`
       .root-about {
         margin: 80px 32px;
