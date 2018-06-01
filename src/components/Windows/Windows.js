@@ -20,6 +20,7 @@ const Windows = () => (
         height: 100vh;
         position: absolute;
         pointer-events: none;
+        object-fit: cover;
       }
     `}</style>
   </div>
