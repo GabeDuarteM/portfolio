@@ -36,7 +36,8 @@ const ProjectList = () => (
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin: 80px;
+        margin: 200px 80px;
+        margin-bottom: 160px;
         user-select: none;
       }
     `}</style>

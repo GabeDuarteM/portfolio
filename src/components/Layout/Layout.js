@@ -1,5 +1,4 @@
 import Navbar from "../Navbar"
-import Footer from "../Footer"
 import RegisterServiceWorker from "../../containers/RegisterServiceWorker"
 
 const Layout = ({ children }) => (
@@ -7,7 +6,6 @@ const Layout = ({ children }) => (
     <RegisterServiceWorker />
     <Navbar />
     <div className="content">{children}</div>
-    <Footer />
     <style jsx global>{`
       body {
         font-family: Montserrat, sans-serif !important;

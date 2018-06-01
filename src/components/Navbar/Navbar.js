@@ -1,19 +1,10 @@
 import Link from "next/link"
+import GithubImageLink from "../GithubImageLink"
+import LinkedinImageLink from "../LinkedinImageLink"
 
 const Navbar = () => (
   <nav>
-    <a
-      className="social"
-      href="https://github.com/GabrielDuarteM/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Github profile"
-    >
-      <img src="/static/img/github.png" alt="Github profile" />
-    </a>
-    <Link prefetch href="/">
-      <a className="link">Home</a>
-    </Link>
+    <GithubImageLink />
     <Link prefetch href="/">
       <img
         className="logo"
@@ -21,18 +12,7 @@ const Navbar = () => (
         alt="Gabriel Duarte Logo"
       />
     </Link>
-    <Link prefetch href="/about">
-      <a className="link">About</a>
-    </Link>
-    <a
-      className="social"
-      href="https://www.linkedin.com/in/GabrielDuarteM/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Linkedin profile"
-    >
-      <img src="/static/img/linkedin.png" alt="Linkedin profile" />
-    </a>
+    <LinkedinImageLink />
     <style jsx>{`
       nav {
         display: flex;
@@ -74,12 +54,6 @@ const Navbar = () => (
       .link:hover:before {
         visibility: visible;
         transform: scaleX(1);
-      }
-
-      @media (max-width: 575px) {
-        .social {
-          display: none;
-        }
       }
     `}</style>
   </nav>

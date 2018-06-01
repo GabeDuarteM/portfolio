@@ -5,7 +5,6 @@ module.exports = withPlugins([withImages], {
   exportPathMap: function() {
     return {
       "/": { page: "/" },
-      "/about": { page: "/about" },
       "/windows": { page: "/windows" },
     }
   },
