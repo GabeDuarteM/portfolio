@@ -23,7 +23,7 @@
             "preset-env": {
               "modules": false,
               "targets": {
-                "browsers": "> 5%"
+                "browsers": "last 2 chrome versions"
               }
             }
           }
