@@ -2,7 +2,7 @@ const Project = ({ title, children, href }) => (
   <a
     href={href}
     target="_blank"
-    rel="noopener"
+    rel="noopener noreferrer"
     aria-label={`Title: ${title}. Description: ${children}`}
   >
     <div className="flip-container">
