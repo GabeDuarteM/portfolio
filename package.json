@@ -37,6 +37,7 @@
     "eslint-plugin-prettier": "^2.6.1",
     "eslint-plugin-react": "7.9.1",
     "jest": "^23.1.0",
+    "plop": "^2.0.0",
     "prettier": "^1.13.5",
     "rimraf": "^2.6.2",
     "sw-precache-webpack-plugin": "^0.11.5"

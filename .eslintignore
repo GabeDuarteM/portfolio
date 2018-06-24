@@ -64,3 +64,4 @@ typings/
 src/out
 
 .netlify
+/prop-templates
