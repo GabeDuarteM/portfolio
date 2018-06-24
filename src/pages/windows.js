@@ -1,5 +1,5 @@
 import React from "react"
-import Windows from "../components/Windows"
+import Windows from "../containers/WindowsContainer"
 
 const WindowsPage = () => <Windows />
 

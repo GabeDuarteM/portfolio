@@ -4,9 +4,16 @@ import startActive from "../../static/img/windows/start-active.png"
 import taskbarImg from "../../static/img/windows/taskbar.png"
 import iconbar from "../../static/img/windows/iconbar.png"
 
-const Taskbar = ({ time }) => (
+const Taskbar = ({ time, menuOpen, toggleMenuOpen }) => (
   <div className="taskbar-root">
-    <div className="start">
+    <div
+      className="start"
+      onClick={toggleMenuOpen}
+      onKeyPress={toggleMenuOpen}
+      role="button"
+      tabIndex={0}
+      title="Click here to begin"
+    >
       <img
         alt="Start menu button: normal state"
         className="normal"
@@ -34,13 +41,16 @@ const Taskbar = ({ time }) => (
         display: flex;
         width: 100%;
       }
+      .start {
+        outline: none;
+      }
       .start img {
         display: none;
         width: 109px;
         height: 30px;
       }
       .start .normal {
-        display: block;
+        display: ${!menuOpen ? "block" : "none"};
       }
       .start:hover .normal,
       .start:active .normal,
@@ -48,10 +58,13 @@ const Taskbar = ({ time }) => (
         display: none;
       }
       .start:hover .hover {
-        display: block;
+        display: ${!menuOpen ? "block" : "none"};
       }
       .start:active .active {
         display: block;
+      }
+      .start .active {
+        display: ${menuOpen ? "block" : "none"};
       }
       .taskbar {
         width: 100%;

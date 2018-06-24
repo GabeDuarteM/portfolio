@@ -40,7 +40,13 @@ class TaskbarContainer extends React.PureComponent {
     })
   }
 
-  render = () => <Taskbar time={this.state.currentTime} />
+  render = () => (
+    <Taskbar
+      toggleMenuOpen={this.props.toggleMenuOpen}
+      menuOpen={this.props.menuOpen}
+      time={this.state.currentTime}
+    />
+  )
 }
 
 export default TaskbarContainer
