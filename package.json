@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "next": "^6.0.3",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",
