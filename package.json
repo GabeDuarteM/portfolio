@@ -8,13 +8,13 @@
     "start": "next src",
     "start:prod": "next start src -p $PORT",
     "prebuild": "rimraf src/out",
-    "build": "next build src && yarn export && cp src/root/* src/out",
+    "build": "next build src && npm run export && cp src/root/* src/out",
     "export": "next export src",
-    "deploy": "yarn build && netlify deploy",
-    "deploy:staging": "yarn deploy -e staging",
+    "deploy": "npm run build && netlify deploy",
+    "deploy:staging": "npm run deploy -e staging",
     "test": "jest",
-    "lint": "yarn eslint src/**/*.js",
-    "ci": "yarn build && yarn test && yarn lint"
+    "lint": "npm run eslint src/**/*.js",
+    "ci": "npm run build && npm run test && npm run lint"
   },
   "dependencies": {
     "next": "^6.0.3",
@@ -34,6 +34,7 @@
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-prettier": "^2.6.1",
     "eslint-plugin-react": "7.9.1",
+    "gd-scripts": "^1.3.2",
     "jest": "^23.1.0",
     "plop": "^2.0.0",
     "prettier": "^1.13.5",
