@@ -56,7 +56,7 @@ const ContactForm = React.forwardRef(
 
         .submit {
           border: solid;
-          margin-top: 8px;
+          margin: 8px 4px 0px 4px;
           background-color: white;
           height: 55px;
         }
