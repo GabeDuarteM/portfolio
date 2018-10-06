@@ -2,9 +2,9 @@ const Field = ({ name, label, textarea, className, ...props }) => (
   <div className="field-root">
     <label htmlFor={name}>{label}</label>
     {textarea ? (
-      <textarea className="input" name={name} {...props} />
+      <textarea data-hj-whitelist className="input" name={name} {...props} />
     ) : (
-      <input className="input" name={name} {...props} />
+      <input data-hj-whitelist className="input" name={name} {...props} />
     )}
     <style jsx>{`
       .field-root {
