@@ -17,7 +17,7 @@
     "ci": "npm run build && npm run test && npm run lint"
   },
   "dependencies": {
-    "next": "^7.0.1",
+    "next": "^7.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
