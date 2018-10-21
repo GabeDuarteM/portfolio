@@ -69,7 +69,6 @@ class CustomDocument extends Document {
             name="Description"
             content="This is a portfolio that gives you information about who Gabriel Duarte is, and all of his latest works."
           />
-          <title>Gabriel Duarte&apos;s Portfolio</title>
           <link
             href="https://fonts.googleapis.com/css?family=Montserrat:400,500"
             rel="stylesheet"
