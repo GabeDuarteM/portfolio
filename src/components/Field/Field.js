@@ -33,6 +33,7 @@ const Field = ({ name, label, textarea, className, ...props }) => (
         flex: auto;
         transition: none;
         margin: 4px;
+        border: solid 1px gray;
       }
 
       :-webkit-autofill,
