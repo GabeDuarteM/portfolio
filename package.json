@@ -22,7 +22,7 @@
     "react-dom": "^16.5.2"
   },
   "devDependencies": {
-    "gd-scripts": "^3.1.2",
+    "gd-scripts": "^3.1.4",
     "plop": "^2.1.0",
     "rimraf": "^2.6.2",
     "sw-precache-webpack-plugin": "^0.11.5"
