@@ -2,7 +2,8 @@ const About = () => (
   <main className="flex column root-about">
     <div className="about">
       I&apos;m a Javascript developer graduated in Information Systems at
-      Estácio de Sá (Santa Catarina - BR) and currently living in Brazil.
+      Estácio de Sá (Santa Catarina - Brazil) and currently living in Hamburg,
+      Germany.
       <br />
       <br />
       I&apos;m a very positive person, always looking out for a light and
