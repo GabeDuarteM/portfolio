@@ -13,16 +13,16 @@
     "deploy": "npm run build && netlify deploy",
     "deploy:staging": "npm run deploy -e staging",
     "test": "jest",
-    "lint": "npm run eslint src/**/*.js",
+    "lint": "eslint src/**/*.js",
     "ci": "npm run build && npm run test && npm run lint"
   },
   "dependencies": {
     "next": "^7.0.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "gd-scripts": "^3.1.2",
+    "gd-scripts": "^3.1.4",
     "plop": "^2.1.0",
     "rimraf": "^2.6.2",
     "sw-precache-webpack-plugin": "^0.11.5"
