@@ -14,17 +14,27 @@
     "deploy:staging": "npm run deploy -e staging",
     "test": "jest",
     "lint": "eslint src/**/*.js",
-    "ci": "npm run build && npm run test && npm run lint"
+    "ci": "npm run build && npm run lint"
   },
   "dependencies": {
-    "next": "^7.0.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "next": "7.0.3",
+    "react": "16.8.1",
+    "react-dom": "16.8.1"
   },
   "devDependencies": {
-    "gd-scripts": "^3.1.4",
-    "plop": "^2.1.0",
-    "rimraf": "^2.6.2",
-    "sw-precache-webpack-plugin": "^0.11.5"
+    "babel-eslint": "10.0.1",
+    "eslint": "5.13.0",
+    "eslint-config-prettier": "4.0.0",
+    "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.12.4",
+    "gd-configs": "3.1.2",
+    "jest": "24.1.0",
+    "plop": "2.2.0",
+    "prettier": "1.16.4",
+    "rimraf": "2.6.3",
+    "sw-precache-webpack-plugin": "0.11.5"
   }
 }
