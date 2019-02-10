@@ -1,6 +1,6 @@
 import React from 'react'
-import Document, { Head, Main, NextScript } from "next/document"
-import ExternalScripts from "../components/ExternalScripts/ExternalScripts"
+import Document, { Head, Main, NextScript } from 'next/document'
+import ExternalScripts from '../components/ExternalScripts/ExternalScripts'
 
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
