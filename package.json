@@ -17,7 +17,7 @@
     "ci": "npm run build && npm run lint"
   },
   "dependencies": {
-    "next": "7.0.3",
+    "next": "8.0.0",
     "react": "16.8.1",
     "react-dom": "16.8.1"
   },
