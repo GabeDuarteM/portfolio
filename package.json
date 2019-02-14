@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "next": "8.0.1",
-    "react": "16.8.1",
-    "react-dom": "16.8.1"
+    "react": "16.8.2",
+    "react-dom": "16.8.2"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",
